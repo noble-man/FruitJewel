@@ -1,0 +1,79 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fruitjewel"
+    android:versionCode="3"
+    android:versionName="1.0" >
+
+    <supports-screens android:smallScreens="false"
+                      android:normalScreens="true"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true"
+                      android:anyDensity="true" />
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.fruitjewel.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fruitjewel.JewelsClassic" ></activity>
+        <activity android:name="com.fruitjewel.JewelsArcade" ></activity>
+        <activity android:name="com.fruitjewel.NextLevel"></activity>
+        <activity android:name="com.fruitjewel.LockLevels"></activity>
+        
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"  	
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />                
+        <activity android:name="com.swarmconnect.SwarmMainActivity"
+        	android:theme="@style/HoloTheme"
+        	android:configChanges="orientation|keyboardHidden"
+        	android:windowSoftInputMode="stateHidden"
+        	android:screenOrientation="portrait"
+            android:label="Swarm" />      
+        <!-- AppBrain SDK -->
+<activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" 
+    android:name="com.appbrain.AppBrainActivity" />
+<service android:name="com.appbrain.AppBrainService" />        
+<receiver android:exported="true" android:name="com.appbrain.ReferrerReceiver" >
+    <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER" />
+    </intent-filter>
+</receiver>
+
+	<activity android:name="com.startapp.android.eula.EULAActivity"
+android:theme="@android:style/Theme.Translucent"
+android:configChanges="keyboard|keyboardHidden|orientation" />
+<activity android:name="com.startapp.android.publish.list3d.List3DActivity"
+android:taskAffinity="com.fruitjewel.AppWall"
+android:theme="@android:style/Theme" />
+<activity android:name="com.startapp.android.publish.AppWallActivity"
+android:theme="@android:style/Theme.Translucent"
+android:taskAffinity="com.fruitjewel.AppWall"
+android:configChanges="orientation|keyboardHidden" />
+
+	<meta-data android:name="com.startapp.android.DEV_ID" android:value="107745272"/>
+<meta-data android:name="com.startapp.android.APP_ID" android:value="209812220"/>
+	
+    </application>
+
+</manifest>
+

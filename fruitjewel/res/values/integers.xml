@@ -1,0 +1,6 @@
+<resources>
+     <integer name="level_base_score">1000</integer>
+     <integer name="level_increment_score">1000</integer>
+     <integer name="quickly_time">8</integer>
+     <integer name="quickly_count">10</integer>
+</resources>

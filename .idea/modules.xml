@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fruitjewel.iml" filepath="$PROJECT_DIR$/fruitjewel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jewelsStar2/jewelsStar2.iml" filepath="$PROJECT_DIR$/jewelsStar2/jewelsStar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwarmConnect/swarmConnect.iml" filepath="$PROJECT_DIR$/SwarmConnect/swarmConnect.iml" />
+    </modules>
+  </component>
+</project>

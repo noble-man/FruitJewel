@@ -1,0 +1,4 @@
+#Sun Apr 21 12:45:23 CEST 2019
+base.0=/Applications/AMPPS/www/PRODUCT/FruitJewel/jewelsStar2/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

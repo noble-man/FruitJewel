@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:2:70-96
+		INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+		INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:5:2-76
+	android:name
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:5:19-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:9:2-72
+	android:name
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:9:19-69
+application
+ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:11:5-20:19
+activity#com.swarmconnect.SwarmMainActivity
+ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:12:9-17:37
+	android:screenOrientation
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:16:10-46
+	android:label
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:17:13-34
+	android:windowSoftInputMode
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:15:10-51
+	android:configChanges
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:14:10-60
+	android:theme
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:13:10-42
+	android:name
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:12:19-68
+service#com.swarmconnect.NotificationService
+ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:19:9-97
+	android:process
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:19:70-94
+	android:name
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml:19:18-69
+uses-sdk
+INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+		INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+		ADDED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
+		INJECTED from /Applications/AMPPS/www/PRODUCT/FruitJewel/swarmConnect/src/main/AndroidManifest.xml
